@@ -1,0 +1,129 @@
+body{
+  margin: 40px;
+}
+h1{
+    text-align:center
+}
+
+
+
+.form{
+    margin-left: 20px;
+    
+}
+ 
+
+.hadding-job{
+    text-align: center;
+    color:blue;
+}
+
+.margin{
+    margin: 30px;
+}
+
+#success-message{
+    background: #DEF1D8;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top:15px;
+}
+#error-message{
+    background: #EFDCDD;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top:15px;
+
+}
+.body-margin{
+    margin: 10px;
+}
+
+.edit-btn{
+  background: #27ae60;
+  color: white;
+  border: 0;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#modal{
+  margin-top: 10px;
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: none;
+}
+#modal-form{
+  background: #fff;
+  width: 40%;
+  position: sticky;
+  top: 20%;
+  left: calc(50% - 15%);
+  padding: 15px;
+  border-radius: 4px;
+}
+#modal-form h2{
+  margin: 0 0 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+#modal-form input[type = "text"],
+#modal-form input[type="number"]{
+  width: 90%;
+  height: 25px;
+  font-size: 18px;
+  padding: 3px 10px;
+  margin-right: 17px;
+  border-radius: 4px;
+  border: 1px solid #5D3F6A;
+  outline: 0;
+}
+
+#close-btn{
+    background: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+  }
+
+  #search-bar{
+    padding: 10px 20px 9px 2px;
+    float: right;
+  }
+  #search-bar label{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+  }
+  #search-bar input{
+    width: 250px;
+    height: 25px;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: 1px solid #000;
+  }
+  #search-bar input:focus{
+    outline: 0;
+  }
